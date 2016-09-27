@@ -32,8 +32,11 @@ const Project = (props) => {
                     </AnimatedCircularProgress>
                 </View>
                 <View style={styles.info}>
-                    <Text style={[styles.font14, styles.red]}>超低价值</Text>
-                    <Text style={[styles.font14, {fontSize:12, marginTop:14, color: 'black'}]}>十元惠生活</Text>
+                    <Text style={[styles.font14, styles.red]}>Project Name: <Text style={[styles.font14, {fontSize:12, marginTop:14, color: 'black'}]}>MyItCom</Text></Text>
+                    <Text style={[styles.font14, styles.green]}>Project Level: <Text style={[styles.font14, {fontSize:12, marginTop:14, color: 'black'}]}>3</Text></Text>
+                    <Text style={[styles.font14, styles.red]}>Release Time: <Text style={[styles.font14, {fontSize:12, marginTop:14, color: 'black'}]}>1997/12/25</Text></Text>
+                    <Text style={[styles.font14, styles.green]}>Project Type: <Text style={[styles.font14, {fontSize:12, marginTop:14, color: 'black'}]}>Simulation Game</Text></Text>
+
                 </View>
             </View>
             <View style={styles.row2}>
@@ -71,6 +74,7 @@ var styles = StyleSheet.create({
     info:{
         flex: 2,
         padding: 8,
+        marginLeft: 8,
         flexDirection:'column',
     },
     employee:{

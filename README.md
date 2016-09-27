@@ -1,1 +1,2 @@
 want to develop a simulation online mobile game in app styles Server: Restful Api using Spring Boot in Amazon EC2 client: React native ? with material design Db: Mongodb(save game data) + mysql(save user info) + Amazon S3(image)
+<img width="372" alt="2016-09-27 15 01 16" src="https://cloud.githubusercontent.com/assets/5095254/18861859/36fc33c8-84c3-11e6-8f93-cbbab2cb7882.png">
